@@ -1,3 +1,10 @@
+# Облачные и туманные вычисления
+<p>Frontend проекта по предмету "Облачные и туманные вычисления", 7 семестр, 4 курс</p>
+<p>Приложение было выложено на Yandex Cloud с использованием сервисов Compute Cloud, Yandex Managed Service for PostgreSQL, Smart Captcha</p>
+<p>Описание можно посмотреть в pdf-файлах <i>3 этап</i> и <i>4 этап</i>.</p>
+<br><br>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
