@@ -1,0 +1,78 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: center;
+    margin-top: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: 3px solid gray;
+    border-radius: 20px;
+}
+
+.auth-form-title {
+    font-family: Genshin_reg;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.auth-form-error {
+    font-family: Genshin_reg;
+    font-size: 20px;
+    max-width: 300px;
+    word-wrap: break-word;
+    color: crimson;
+    text-align: center;
+}
+
+.auth-form-input {
+    font-size: 20px;
+    font-family: Genshin_reg;
+    border-radius: 10px;
+    height: 50px;
+    border: 0;
+    width: 200px;
+    margin-right: 15px;
+    padding: 0px 0px 0px 10px;
+    border: 1px solid #231942;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.auth-form-input:hover {
+    border: 2px solid #231942;
+}
+
+.auth-form-input:focus {
+    border: 2px solid #231942;
+}
+
+.auth-form-button-container {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-form-button {
+    font-size: 20px;
+    font-family: Genshin_reg;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background-color: #231942;
+    padding: 10px 16px 10px 16px;
+    transition: 0.025s ease-out;
+}
+
+.auth-form-button:hover {
+    cursor: pointer;
+    background-color: #0f0b1e;
+}
+
+.auth-form-button:disabled {
+    cursor: default;
+    background-color: gray;
+    border: none;
+}
